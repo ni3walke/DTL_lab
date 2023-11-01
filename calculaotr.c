@@ -27,7 +27,14 @@ int main(){
                 printf("Error: Division by zero is not allowed.\n");
             }
             break;
-        
+        case '$':
+            {
+                int decimalNumber;
+                printf("Enter a decimal number: ");
+                scanf ("%d", &decimalNumber);
+                printf("Hexadecimal equivalent: %X\n", decimalNumber);
+                break;    
+            }
         default:
             printf("Error: Invalid operator\n");
             break;
