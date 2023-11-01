@@ -27,6 +27,9 @@ int main(){
                 printf("Error: Division by zero is not allowed.\n");
             }
             break;
+        case '&':
+            printf("a^b is %f \n ",pow(num1 ,num2));
+            break ;
         
         default:
             printf("Error: Invalid operator\n");
